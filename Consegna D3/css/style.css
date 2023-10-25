@@ -1,0 +1,92 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*+++++++++++++++ Header +++++++++++++++ */
+header {
+    text-align: center;
+}
+
+#logo{
+    width: 200px;
+    margin: 1rem 0;
+}
+
+#header_bottom{
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    border-top: 1px solid rgba(255, 166, 0, 0.49);
+    background-color: rgba(255, 255, 0, 0.1);
+    color: #357476;
+    margin-bottom: 3.5rem;
+}
+/*+++++++++++++++ Main Content +++++++++++++++ */
+.content, footer {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+.content h1{
+    text-align: center;
+}
+/*+++++++++++++++ Video +++++++++++++++ */
+.content figure{
+    margin: 0;
+}
+
+video{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0.5em 1em;
+}
+
+.content > figure > figcaption{
+    text-align: center;
+    padding: 1rem;
+    color: gray;
+}
+/*+++++++++++++++ Sec. FT. +++++++++++++++ */
+#featured{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border-left: 1px solid red;
+    
+}
+
+#featured span{
+    display: block;
+}
+
+#link{
+    color: #357476;
+}
+
+#link:hover, link:active{
+    color: black;
+}
+/*+++++++++++++++ Ingredients +++++++++++++++ */
+.ingredients{
+    margin-top: 4rem;
+}
+
+.section_header{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #00eff7;
+}
+
+.section_header h2{
+    font-weight: 100;
+}
+
+.ingredients p, .method ol li p:first-of-type{
+    font-weight: bold;
+}
+
+.ingredients > ul{
+    margin-bottom: 3rem;
+}
+
+.ingredients > ul li{
+    line-height: 2rem;
+}
