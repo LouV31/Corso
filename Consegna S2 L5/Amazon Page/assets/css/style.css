@@ -1,0 +1,150 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+/* HEADER */
+header{
+    
+}
+
+
+#header-logo{
+    background-color: #222F3F;
+    padding: 0.3em 1.5em;
+}
+
+#header-logo img{
+    width: 7rem;
+}
+
+nav{
+    background-color: #364759;
+    padding: 0.3em 1.5em;
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 0.6em;
+    font-size: 0.7rem;
+    
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main{
+    padding: 1.5em;
+    background-color: #E9EDEE;
+    text-align: center;
+}
+/* MAIN -> ARTICLE HOLIDAYS */
+
+#gift-card-shop{
+    background-color: #F66502;
+    padding: 0.5em;
+}
+
+#gift-card-link{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    
+}
+#gift-guides{
+    background-image: url(../images/bg-image.png);
+    background-position: center ;
+    background-size: cover;
+    color: white;
+    padding: 4.5em 0em 2.3em 0;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#gift-guides h1{
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+#gift-guides p{
+    font-size: 0.8rem;
+}
+
+#find-perfect-gift{
+    background-color: white;
+    padding: 1em 0;     
+}
+
+.argument-text{
+    text-align: center;
+    margin-left: 1em;
+    font-size: 1.1rem;
+    color: #141414;
+    font-weight: 550;
+}
+
+#find-perfect-gift .argument-text{
+    text-align: left;
+}
+
+.shop-links{
+    color: #508592;
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.gift-images{
+    display: inline-block;
+    width: 359px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0.9em 1.4em 0.9em 1.4em;
+    -webkit-box-shadow: 6px 6px 10px #00000044;   
+}
+
+/* MAIN -> ARTICLE GAME & SOUND */
+
+.section{
+    margin-top: 2em;
+}
+
+.section img{
+    width: 100%;
+    margin-bottom: 0.5em;    
+}
+
+/* ASIDE -> BACK TO TOP */
+aside{
+    text-align: center;
+    background-color: #364759;
+    padding: 0.5em;    
+}
+
+#backToTop-link{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;   
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #222F3F;
+}
+
+footer img{
+    width: 10em;
+    padding: 3.5em;
+}
