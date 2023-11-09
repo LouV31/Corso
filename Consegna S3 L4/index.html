@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tombola</title>
+</head>
+<body>
+    <div id="container">
+        <main>
+            <div id="table">
+                <!-- qui devo generarmi 
+                    <div class="cell">
+                        <span>Numero</span>
+                    </div> 
+                LOOPPARE il div cell 90 volte per la generazione di 90 celle
+                -->
+            </div>
+            <form>
+                <button id="draftNumber">Fai uscire un numero</button>
+                <input type="number" >  <!-- Il value inserito in questo input dev'essere letto e collegato al bottone Crea Cartelline per generare le cartelle nuove-->
+                <button id="createFolders">Crea Cartelline</button>  
+            </form>
+        </main>
+        <section>
+            <div id="extractedNumber">
+                <span><!-- Qui dentro va inserito 'Numero:' + il numero uscito dal click su draftNumber --></span>
+            </div>
+            <div id="folders">
+                <!-- Qui vanno generate JS dei <div class="folder"></div> -->
+            </div>
+        </section>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>

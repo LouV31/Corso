@@ -1,0 +1,32 @@
+body {
+
+}
+
+#container{
+    width: 20%;
+    min-width: 768px;
+    margin-inline: auto;
+    text-align: center; 
+}
+
+#table{
+    margin-bottom: 2rem;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.cell span {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    
+}
+
+.selectedNumber {
+    background-color: green;
+}
